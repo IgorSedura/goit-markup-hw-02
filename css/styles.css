@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* Логотип */
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo-color {
+    color: #2196F3;
+}
+
+/* Навигация  */
+ .nav-item {
+    list-style: none;
+ }
+ .nav-link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+ }
+
+ .nav-tel,.nav-mail {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+ }
+
+ /* Блок герой */
+.hero {
+    
+    background: #2F303A;
+}
+ .hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-transform: uppercase;
+ }
+
+ .hero-btn {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+ }
