@@ -1,60 +1,96 @@
+:root {
+    --title-color:#212121;
+    --main-text-color:#757575;
+    --second-text-color:#212121;
+    --accent-color:#2196F3;
+    --white-color:#FFFFFF;
+    --black-color:#000000;
+
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    color: var(--main-text-color);
 }
 
-/* Логотип */
-.logo {
+.link {
     text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+
+
+/*-------------------------LOGO------------------- */
+
+
+
+.logo {
+  
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: var(--black-color);
 }
 
 .logo-color {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
-/* Навигация  */
- .nav-item {
-    list-style: none;
- }
- .nav-link {
-    text-decoration: none;
+/*-------------------------NAVIGATION------------------- */ 
+/* 
+.nav-item {
+   
+
+} */
+
+.nav-link {
+
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--second-text-color);
  }
-
+ 
  .nav-tel,.nav-mail {
-    text-decoration: none;
+  
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
-    color: #757575;
+    line-height: 1.14;
+    color: var(--main-text-color);
  }
-
- /* Блок герой */
+ .nav-link:hover,
+ .nav-link:focus,
+ .nav-tel:hover,
+ .nav-tel:focus,
+ .nav-mail:hover,
+ .nav-mail:focus {
+    color: var(--accent-color);
+ }
+ 
+/*-------------------------HERO------------------- */
 .hero {
     
     background: #2F303A;
 }
  .hero-title {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    color: #FFFFFF;
-    text-transform: uppercase;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color:var(--white-color)
+    
  }
 
  .hero-btn {
@@ -62,5 +98,101 @@ font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    color: #FFFFFF;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color:var(--white-color);
+    background-color: #757575;
+    
  }
+
+ /*-------------------------ASIDE------------------- */
+
+.hidden-title {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+        }
+
+ .aside-list {
+     list-style: none;
+ }
+
+ .aside-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--title-color)
+ }
+
+ .aside-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+ }
+
+  /*-------------------------ABOUT------------------- */
+
+  .about {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color:var(--second-text-color)
+  }
+
+        /*-------------------------TEAM------------------- */
+.team {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--second-text-color)
+}
+
+/* .team-list {} */
+
+        
+/* .team-item {} */
+
+        
+        
+.team-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--second-text-color);
+}
+
+        
+.team-text {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color)
+}
